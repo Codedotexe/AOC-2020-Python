@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+for i in Day-*; do
+	cd "$i"
+	echo "-------- Running $i --------"
+	python main.py
+	cd ..
+done
+
